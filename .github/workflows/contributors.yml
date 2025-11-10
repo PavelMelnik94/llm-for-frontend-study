@@ -1,0 +1,29 @@
+name: 👥 Update Contributors
+
+on:
+  schedule:
+    # Runs every week on Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update contributors
+        uses: minicli/action-contributors@v3
+        with:
+          repo: 'PavelMelnik94/llm-for-frontend-study'
+          readme: 'CONTRIBUTORS.md'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs: update contributors list'
+          file_pattern: 'CONTRIBUTORS.md'
