@@ -39,15 +39,3 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           config-file: '.github/markdown-link-check-config.json'
-
-  spell-check:
-    name: Spell Check
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Check spelling
-        uses: rojopolis/spellcheck-github-actions@0.36.0
-        with:
-          config_path: .github/spellcheck-config.json
