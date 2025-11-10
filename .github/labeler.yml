@@ -1,0 +1,15 @@
+documentation:
+  - docs/**/*
+  - '*.md'
+
+examples:
+  - examples/**/*
+
+github-actions:
+  - .github/workflows/*
+  - .github/**/*.yml
+
+community:
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - SECURITY.md

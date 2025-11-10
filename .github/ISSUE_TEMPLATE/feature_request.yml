@@ -1,0 +1,59 @@
+name: ✨ Запрос на новую функцию / Feature Request
+description: Предложите идею для улучшения учебника
+title: "[FEATURE]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за ваши идеи по улучшению учебника!
+        
+  - type: textarea
+    id: problem
+    attributes:
+      label: Связано с проблемой?
+      description: Четкое и краткое описание проблемы, которую решает ваше предложение
+      placeholder: "Например: Мне неудобно, что..."
+    validations:
+      required: false
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+      description: Опишите, что бы вы хотели увидеть
+      placeholder: Я хотел бы видеть...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы
+      description: Описание альтернативных решений или функций, которые вы рассматривали
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Категория
+      description: К какой категории относится ваше предложение?
+      options:
+        - Новая глава или раздел
+        - Улучшение существующего контента
+        - Новый пример кода
+        - Улучшение примеров
+        - Документация
+        - Визуализация или диаграммы
+        - Другое
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительная информация
+      description: Добавьте любую другую информацию о вашем предложении
+    validations:
+      required: false

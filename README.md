@@ -1,28 +1,125 @@
 # LLM для фронтенда: Полное руководство
 
+<div align="center">
+
+**[🇷🇺 Русский](./README.md)** | **[🇬🇧 English](./README.en.md)**
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub](https://img.shields.io/badge/GitHub-PavelMelnik94%2Fllm--for--frontend--study-blue?logo=github)](https://github.com/PavelMelnik94/llm-for-frontend-study)
+[![GitHub Stars](https://img.shields.io/github/stars/PavelMelnik94/llm-for-frontend-study?style=social)](https://github.com/PavelMelnik94/llm-for-frontend-study/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/PavelMelnik94/llm-for-frontend-study?style=social)](https://github.com/PavelMelnik94/llm-for-frontend-study/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/PavelMelnik94/llm-for-frontend-study)](https://github.com/PavelMelnik94/llm-for-frontend-study/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?logo=openai)](https://platform.openai.com/)
+[![Claude](https://img.shields.io/badge/Claude-3-ff9900)](https://www.anthropic.com/claude)
+[![LangChain](https://img.shields.io/badge/LangChain-JS-00897B)](https://js.langchain.com/)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/PavelMelnik94/llm-for-frontend-study)
+[![Russian](https://img.shields.io/badge/Language-Russian-blue.svg)](./README.md)
+
+</div>
+
+---
+
+<div align="center">
+  <h3>🚀 Комплексный учебник по интеграции LLM в React-приложения</h3>
+  <p>
+    <strong>GPT-4</strong> • <strong>Claude</strong> • <strong>React 19</strong> • <strong>TypeScript</strong> • <strong>RAG</strong> • <strong>Streaming</strong>
+  </p>
+</div>
+
+---
+
+## 📑 Содержание
+
+- [🎯 Введение](#-введение)
+- [🚀 Быстрый старт](./QUICKSTART.md) ⭐
+- [❓ FAQ](./FAQ.md)
+- [📚 Как пользоваться учебником](#-как-пользоваться-учебником)
+- [🗺️ План учебника](#️-план-учебника)
+- [🛠️ Технологический стек](#️-технологический-стек)
+- [📦 Примеры кода](#-примеры-кода)
+- [📊 Диаграммы и визуализация](#-диаграммы-и-визуализация)
+- [🔗 Полезные ссылки](#-полезные-ссылки-2025)
+- [🤝 Участие в развитии](#-участие-в-развитии)
+- [📝 Лицензия](#-лицензия)
+- [🎯 Roadmap](./ROADMAP.md)
+- [📋 Changelog](./CHANGELOG.md)
+- [👥 Contributors](./CONTRIBUTORS.md)
+
+---
 
 ## 🎯 Введение
 
-Добро пожаловать в комплексный учебник по интеграции больших языковых моделей (LLM) во фронтенд-приложения! Это руководство создано специально для фронтенд-разработчиков, работающих с React 19 и TypeScript, и охватывает все аспекты работы с LLM — от базовых концепций до production-ready решений.
+Добро пожаловать в **самый полный учебник на русском языке** по интеграции больших языковых моделей (LLM) во фронтенд-приложения! Это руководство создано специально для фронтенд-разработчиков, работающих с React 19 и TypeScript, и охватывает все аспекты работы с LLM — от базовых концепций до production-ready решений.
 
-### Для кого этот учебник?
+> 💡 **Почему этот учебник?**
+> - ✅ Полностью на русском языке
+> - ✅ Актуальные технологии 2025 года
+> - ✅ Практические примеры кода
+> - ✅ От простого к сложному
+> - ✅ Production-ready решения
+> - ✅ Открытый исходный код
 
-- **Фронтенд-разработчики** с опытом работы в React и TypeScript
-- **Full-stack разработчики**, желающие углубить знания в области LLM
-- **Product-менеджеры и дизайнеры**, желающие понять технические возможности и ограничения LLM
+### 👥 Для кого этот учебник?
 
-### Что вы узнаете?
+<table>
+  <tr>
+    <td align="center">👨‍💻<br><b>Фронтенд-разработчики</b><br>с опытом работы в React и TypeScript</td>
+    <td align="center">🔧<br><b>Full-stack разработчики</b><br>желающие углубить знания в области LLM</td>
+    <td align="center">📊<br><b>Product-менеджеры</b><br>желающие понять возможности и ограничения LLM</td>
+  </tr>
+</table>
 
-- 🧠 **Основы LLM**: токены, контекстное окно, модели и их особенности
-- 🔌 **Интеграция API**: работа с OpenAI, Anthropic, Cohere и локальными моделями
-- 🌊 **Streaming**: потоковая отдача ответов и реализация в UI
-- 📚 **RAG**: Retrieval-Augmented Generation, векторный поиск и базы данных
-- 🏗️ **Архитектура**: паттерны проектирования и best practices
-- 🎨 **UX**: дизайн-паттерны для AI-интерфейсов
-- 🔒 **Безопасность**: защита данных, модерация и GDPR
-- 💻 **Практика**: готовые примеры кода на React 19 + TypeScript
+### 📖 Что вы узнаете?
+
+<details open>
+<summary><b>🧠 Основы LLM</b></summary>
+<br>
+Токены, контекстное окно, модели и их особенности. Понимание того, как работают большие языковые модели.
+</details>
+
+<details open>
+<summary><b>🔌 Интеграция API</b></summary>
+<br>
+Работа с OpenAI, Anthropic, Cohere и локальными моделями. Практические примеры интеграции в React.
+</details>
+
+<details open>
+<summary><b>🌊 Streaming</b></summary>
+<br>
+Потоковая отдача ответов и реализация в UI. Создание интерактивных интерфейсов с реал-тайм обновлениями.
+</details>
+
+<details open>
+<summary><b>📚 RAG (Retrieval-Augmented Generation)</b></summary>
+<br>
+Векторный поиск и базы данных. Расширение возможностей LLM с помощью внешних источников знаний.
+</details>
+
+<details open>
+<summary><b>🏗️ Архитектура</b></summary>
+<br>
+Паттерны проектирования и best practices для построения масштабируемых LLM-приложений.
+</details>
+
+<details open>
+<summary><b>🎨 UX Design</b></summary>
+<br>
+Дизайн-паттерны для AI-интерфейсов. Создание удобных и понятных пользовательских интерфейсов.
+</details>
+
+<details open>
+<summary><b>🔒 Безопасность</b></summary>
+<br>
+Защита данных, модерация контента и соответствие GDPR. Безопасная работа с пользовательскими данными.
+</details>
+
+<details open>
+<summary><b>💻 Практика</b></summary>
+<br>
+Готовые примеры кода на React 19 + TypeScript. Запускайте и экспериментируйте с реальными проектами.
+</details>
 
 ## 📚 Как пользоваться учебником
 
@@ -222,7 +319,34 @@
 
 Готовы начать? Переходите к [Оглавлению](./docs/TOC.md) или сразу к [Главе 1: Основы LLM](./docs/chapters/01-basics.md)!
 
+## ⭐ Поддержите проект
+
+Если этот учебник оказался полезным, пожалуйста:
+
+- ⭐ Поставьте звезду (Star) репозиторию
+- 🔀 Сделайте Fork для ваших экспериментов  
+- 📢 Поделитесь с коллегами и в социальных сетях
+- 🐛 Сообщайте об ошибках через [Issues](https://github.com/PavelMelnik94/llm-for-frontend-study/issues)
+- 💡 Предлагайте улучшения через [Pull Requests](./CONTRIBUTING.md)
+
+## 📊 Статистика проекта
+
+![GitHub stars](https://img.shields.io/github/stars/PavelMelnik94/llm-for-frontend-study?style=social)
+![GitHub forks](https://img.shields.io/github/forks/PavelMelnik94/llm-for-frontend-study?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/PavelMelnik94/llm-for-frontend-study?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/PavelMelnik94/llm-for-frontend-study)
+![GitHub last commit](https://img.shields.io/github/last-commit/PavelMelnik94/llm-for-frontend-study)
+
+## 🔑 Ключевые слова
+
+`LLM`, `Large Language Models`, `GPT-4`, `Claude`, `OpenAI`, `Anthropic`, `React`, `React 19`, `TypeScript`, `Frontend Development`, `AI Integration`, `RAG`, `Retrieval Augmented Generation`, `Streaming`, `ChatGPT`, `Chatbot`, `Conversational AI`, `Prompt Engineering`, `Embeddings`, `Vector Database`, `LangChain`, `LlamaIndex`, `Machine Learning`, `Artificial Intelligence`, `JavaScript`, `Web Development`, `Tutorial`, `Guide`, `Education`, `Learning`, `Russian`, `Русский`, `Учебник`, `Руководство`, `Фронтенд`, `API Integration`, `Zustand`, `Feature-Sliced Design`, `SCSS`, `Vite`, `Semantic Search`, `Context Window`, `Token`, `Модерация контента`, `Безопасность`, `GDPR`, `UX Design`, `UI Patterns`
+
 ---
 
 **Последнее обновление:** Ноябрь 2025  
-**Версия:** 1.0.0
+**Версия:** 1.0.0  
+**Автор:** [Pavel Melnik](https://github.com/PavelMelnik94)
+
+<div align="center">
+  <sub>Создано с ❤️ для сообщества разработчиков</sub>
+</div>
