@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Обсуждения / Discussions
+    url: https://github.com/PavelMelnik94/llm-for-frontend-study/discussions
+    about: Задавайте вопросы и обсуждайте учебник в разделе Discussions
+  - name: 📖 Документация
+    url: https://github.com/PavelMelnik94/llm-for-frontend-study/blob/main/README.md
+    about: Ознакомьтесь с полной документацией учебника

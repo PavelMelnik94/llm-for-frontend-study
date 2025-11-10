@@ -1,0 +1,53 @@
+name: 🐛 Сообщение об ошибке / Bug Report
+description: Сообщите об ошибке или проблеме в учебнике
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за ваш вклад в улучшение учебника!
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание ошибки
+      description: Четкое и краткое описание проблемы
+      placeholder: Расскажите, что пошло не так
+    validations:
+      required: true
+      
+  - type: textarea
+    id: location
+    attributes:
+      label: Расположение
+      description: Где в учебнике находится ошибка?
+      placeholder: Укажите главу, раздел или путь к файлу
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      description: Что должно быть правильно?
+      placeholder: Опишите, как должно быть
+    validations:
+      required: false
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Если применимо, добавьте скриншоты для иллюстрации проблемы
+      placeholder: Вставьте скриншоты здесь
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительная информация
+      description: Добавьте любую другую информацию о проблеме
+    validations:
+      required: false
