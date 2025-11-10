@@ -235,8 +235,8 @@ const example = 'code';
 
 ```
 llm-for-frontend-study/
-├── docs/                    # Документация
-│   ├── README.md           # Главная страница
+├── README.md               # Главная страница учебника
+├── docs/                   # Документация
 │   ├── TOC.md              # Оглавление
 │   └── chapters/           # Главы учебника
 │       ├── 01-basics.md
@@ -252,7 +252,7 @@ llm-for-frontend-study/
 │       ├── architecture.svg
 │       └── context-window.svg
 ├── CONTRIBUTING.md         # Этот файл
-└── README.md               # Корневой README
+└── LICENSE
 ```
 
 ### Добавление новой главы
@@ -291,7 +291,7 @@ llm-for-frontend-study/
 npm install -g markdown-link-check
 
 # Проверьте файл
-markdown-link-check docs/README.md
+markdown-link-check README.md
 ```
 
 ### TypeScript
