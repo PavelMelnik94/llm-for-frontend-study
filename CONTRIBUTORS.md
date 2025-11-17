@@ -1,72 +1,30 @@
-# Участники проекта / Contributors
+# Contributors
 
-Спасибо всем, кто внес вклад в развитие этого учебника! 🎉
+Shout out to our top contributors!
 
-## Как стать участником
-
-Прочитайте [руководство для контрибьюторов](./CONTRIBUTING.md) и начните вносить свой вклад!
-
-## Основатели / Founders
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/PavelMelnik94">
-        <img src="https://github.com/PavelMelnik94.png" width="100px;" alt="Pavel Melnik"/>
-        <br />
-        <sub><b>Pavel Melnik</b></sub>
-      </a>
-      <br />
-      <sub>Создатель проекта</sub>
-    </td>
-  </tr>
-</table>
-
-## Участники / Contributors
-
-<!-- readme: contributors -start -->
-<!-- Этот раздел автоматически обновляется GitHub Actions -->
-<!-- readme: contributors -end -->
-
-## Типы вклада
-
-### 💻 Код
-Разработка примеров, компонентов, утилит
-
-### 📖 Документация
-Написание и улучшение документации, перевод
-
-### 🎨 Дизайн
-Создание диаграмм, визуализаций, UI/UX
-
-### 🐛 Баги
-Обнаружение и исправление ошибок
-
-### 💡 Идеи
-Предложение новых функций и улучшений
-
-### 🌍 Перевод
-Перевод на другие языки
-
-### ⚠️ Ревью
-Проверка кода и документации
-
-## Статистика участников
-
-![Contributors](https://contrib.rocks/image?repo=PavelMelnik94/llm-for-frontend-study)
-
-## Стань частью сообщества!
-
-Мы всегда рады новым участникам. Вы можете помочь проекту:
-
-1. ⭐ Поставить звезду репозиторию
-2. 🔀 Создать Fork
-3. 🐛 Сообщить об ошибке
-4. 💡 Предложить улучшение
-5. 📝 Написать документацию
-6. 💻 Добавить код
-7. 🌍 Перевести на другой язык
-
----
-
-**Спасибо всем за вклад в развитие проекта!** ❤️
+- [erikaheidi](https://api.github.com/users/erikaheidi)
+- [WendellAdriel](https://api.github.com/users/WendellAdriel)
+- [JustSteveKing](https://api.github.com/users/JustSteveKing)
+- [github-actions[bot]](https://api.github.com/users/github-actions%5Bbot%5D)
+- [lotfio](https://api.github.com/users/lotfio)
+- [AbdelrhmanSaid](https://api.github.com/users/AbdelrhmanSaid)
+- [syntaxseed](https://api.github.com/users/syntaxseed)
+- [devatreides](https://api.github.com/users/devatreides)
+- [szepeviktor](https://api.github.com/users/szepeviktor)
+- [tlhsec](https://api.github.com/users/tlhsec)
+- [wandersonwhcr](https://api.github.com/users/wandersonwhcr)
+- [tfrommen](https://api.github.com/users/tfrommen)
+- [ScullWM](https://api.github.com/users/ScullWM)
+- [NickSdot](https://api.github.com/users/NickSdot)
+- [barbanet](https://api.github.com/users/barbanet)
+- [alexkart](https://api.github.com/users/alexkart)
+- [EFabrizioGC](https://api.github.com/users/EFabrizioGC)
+- [flug](https://api.github.com/users/flug)
+- [MauricioFauth](https://api.github.com/users/MauricioFauth)
+- [rodrigoaramburu](https://api.github.com/users/rodrigoaramburu)
+- [hopeseekr](https://api.github.com/users/hopeseekr)
+- [mrpc](https://api.github.com/users/mrpc)
+- [peter279k](https://api.github.com/users/peter279k)
+- [theoboldalex](https://api.github.com/users/theoboldalex)
+- [thinkverse](https://api.github.com/users/thinkverse)
+- [zaghadon](https://api.github.com/users/zaghadon)
