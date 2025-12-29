@@ -11,7 +11,7 @@ Shout out to our top contributors!
 - [syntaxseed](https://api.github.com/users/syntaxseed)
 - [devatreides](https://api.github.com/users/devatreides)
 - [szepeviktor](https://api.github.com/users/szepeviktor)
-- [lhajman](https://api.github.com/users/lhajman)
+- [tlhsec](https://api.github.com/users/tlhsec)
 - [wandersonwhcr](https://api.github.com/users/wandersonwhcr)
 - [tfrommen](https://api.github.com/users/tfrommen)
 - [ScullWM](https://api.github.com/users/ScullWM)
